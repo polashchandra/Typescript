@@ -15,3 +15,4 @@ const rich={
 const arrays:number[]=[1,4,10]
 
 const newarray: number[]=arrays.map((arr:number):number =>arr*arr)
+
