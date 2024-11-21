@@ -21,8 +21,8 @@
     type GenericTuple<x,y> = [x, y] ;
 
     const manush:GenericTuple<string,string> =['mr.x','ms.y']
-
     const UserWithID: GenericTuple<number, { name: string; email: string }> = [
+
         1234,
         { name: "persian", email: "a@gmail.com" },
       ];
