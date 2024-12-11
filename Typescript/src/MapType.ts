@@ -14,7 +14,16 @@
     // }
     
     //digital system mapType
-    type areaTypedynamic={
-        [keys in keyof ayraNumber]:string
+    // type areaTypedynamic={
+    //     [keys in keyof ayraNumber]:string
+    // }
+    type areaTypedynamic <T> ={
+        [key in keyof T ]:T[key];
+    }
+
+
+    const area1:areaTypedynamic <{height:string,weight:number }>={
+        height:"50",
+        weight:100
     }
 }
