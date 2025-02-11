@@ -28,11 +28,20 @@ class cat extends Animal{
         console.log('i am cawing');
     }
 }
+//  smart way to chandle korar jonno chaole ,ara function benohar korte pari
+const isdog=(animal:Animal):animal is dog=>{
+    return animal instanceof dog; 
+}
+const iscat =(animal:Animal):animal is cat=>{
+    return animal instanceof cat;
+}
 const getAnimal=(animal:Animal)=>{
-    if(animal instanceof dog){
+    if(isdog(animal)){
         animal.makeBrak()
-    }else if(animal instanceof cat){
+    }else if(iscat(animal)){
         animal.makeCaw();
+    }else{
+        animal.makesound()
     }
 }
 
