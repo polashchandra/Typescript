@@ -29,7 +29,8 @@ class cat extends Animal{
     }
 }
 
-const dog=new dog("dog","mammmal");
-const cat =new cat("cat","cawing");
+const dog1=new dog("dog","mammmal");
+const cat2 =new cat("cat","cawing");
+
 
 }
