@@ -28,6 +28,13 @@ class cat extends Animal{
         console.log('i am cawing');
     }
 }
+const getAnimal=(animal:Animal)=>{
+    if(animal instanceof dog){
+        animal.makeBrak()
+    }else if(animal instanceof cat){
+        animal.makeCaw();
+    }
+}
 
 const dog1=new dog("dog","mammmal");
 const cat2 =new cat("cat","cawing");
