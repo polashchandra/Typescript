@@ -12,7 +12,7 @@
      public Adddeposit(amount:number){
         this._balance=this._balance+amount;
      }
-     pubic getBalance(){
+     public getBalance(){
         return this._balance;
      }
 
@@ -25,6 +25,7 @@
 
     const goribmanusherAccount= new BankAccount(111,'goribmanush',1000);
     goribmanusherAccount.Adddeposit(500);
+    
     const mybalance=goribmanusherAccount.getBalance();
     console.log(mybalance);
 }
