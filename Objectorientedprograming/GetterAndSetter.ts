@@ -11,7 +11,7 @@
         this.name=name;
         this._balance=balance;
      }
-
+     // Setter
      set balance(amount:number){
         this._balance = this._balance + amount;
      }
