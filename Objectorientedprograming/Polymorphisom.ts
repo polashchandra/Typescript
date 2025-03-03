@@ -11,12 +11,12 @@
     }
     class devoloper extends Person{
         getsleep(){
-            console.log("devoloper is sleeping 4 hours a day")
+            console.log("devoloper is sleeping 4 hours a day");
         }
     }
 
     const getsleepingHours=(param:Person)=>{
-        param.getSleep()
+        param.getSleep();
     }
 
     const person1=new Person();
