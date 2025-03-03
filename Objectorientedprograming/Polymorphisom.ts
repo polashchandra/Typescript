@@ -39,4 +39,18 @@
             return Math.PI*this.radius*this.radius;
         }
     }
+    class rectangle extends shape{
+        width:number;
+        height:number;
+        constructor(width:number,height:number){
+            super()
+            this.width=width;
+            this.height=height;
+        }
+        getArea():number{
+            return this.width*this.height;
+        }
+    }
+
+
 }
