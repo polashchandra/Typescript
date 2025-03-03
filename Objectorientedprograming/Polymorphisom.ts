@@ -22,4 +22,21 @@
     const person1=new Person();
     const person2=new Student();
     const person3=new devoloper();
+
+
+    class shape{
+        getArea():number{
+            return 0
+        }
+    }
+    class circle extends shape{
+        radius:number;
+        constructor(radius:number){
+            super();
+            this.radius=radius;
+        }
+        getArea():number{
+            return Math.PI*this.radius*this.radius;
+        }
+    }
 }
