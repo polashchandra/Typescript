@@ -52,5 +52,13 @@
         }
     }
 
+    const getshapeArea=(parem:shape)=>{
+        console.log(parem.getArea());
+    }
+    const shape1=new shape();
+    const shape2=new circle(10);
+    const shape3=new rectangle(10,20);
+
+    getshapeArea(shape2);
 
 }
