@@ -1,4 +1,5 @@
 {
+    // polymorphisom
     class Person{
         getSleep(){
             console.log("Person is sleeping 8 hours a day");
